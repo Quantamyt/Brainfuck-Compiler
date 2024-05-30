@@ -45,6 +45,60 @@ python brainfuck_ide.py
 2. **Run Code**:
    - Click the "Run" button to execute the code. The output will be displayed in the output area below the editor.
 
+## Brainfuck Code Examples
+
+Here are some examples of Brainfuck code:
+
+1. **Hello World**:
+   This is the classic "Hello, World!" program written in Brainfuck. It outputs the string "Hello, World!" followed by a newline.
+   ```brainfuck
+   +[-->[>>+>++++++>+++++++++++>+++++++++++++<<<<<]>+++++>----->++>>>+>>+++++++[<+>-]>>+>+++>-->-----[<+>-]<<<.>-]>++.+++++++..+++.>>>++.<<+++++++++++++.>>.+++.------.--------.>>>+.
+   ```
+
+2. **Simple Increment and Output**:
+   This program increments the value at the data pointer by 8 and outputs the corresponding character (which is a newline).
+   ```brainfuck
+   ++++++++.  # Increments the cell by 7 and then prints the character (ASCII 7 -> '\a')
+   ```
+
+3. **Echo Input**:
+   This program takes a single character input from the user and echoes it back.
+   ```brainfuck
+   , [.,]
+   ```
+
+4. **Add Two Numbers**:
+   This program adds two numbers provided by the user and prints the result. This is a more advanced example demonstrating the arithmetic capabilities of Brainfuck.
+   ```brainfuck
+   ,>++++++[<-------->-],[<+>-]<.
+   ```
+
+5. **Generate ASCII Values**:
+   This program outputs the ASCII values for characters 'A' to 'Z'.
+   ```brainfuck
+   +++++++ [ > ++++++++++ < - ] > +++++ .
+   +++++++ [ > ++++++++ < - ] > +++++ .
+   +++++++ [ > +++++++ < - ] > +++++ .
+   +++++++ [ > +++++++ < - ] > ++++++ .
+   +++++++ [ > +++++++ < - ] > +++++++ .
+   +++++++ [ > +++++++ < - ] > ++++++++ .
+   +++++++ [ > +++++++ < - ] > +++++++++ .
+   +++++++ [ > +++++++ < - ] > ++++++++++ .
+   +++++++ [ > ++++++ < - ] > +++++ .
+   +++++++ [ > ++++++ < - ] > ++++++ .
+   +++++++ [ > ++++++ < - ] > +++++++ .
+   +++++++ [ > ++++++ < - ] > ++++++++ .
+   +++++++ [ > ++++++ < - ] > +++++++++ .
+   +++++++ [ > ++++++ < - ] > ++++++++++ .
+   +++++++ [ > ++++++ < - ] > +++++++++++ .
+   +++++++ [ > +++++ < - ] > +++++ .
+   +++++++ [ > +++++ < - ] > ++++++ .
+   +++++++ [ > +++++ < - ] > +++++++ .
+   +++++++ [ > +++++ < - ] > ++++++++ .
+   +++++++ [ > +++++ < - ] > +++++++++ .
+   +++++++ [ > +++++ < - ] > ++++++++++ .
+   +++++++ [ > +++++ < - ] > +++++++++++ .
+   ```
 
 ## Code Structure
 
