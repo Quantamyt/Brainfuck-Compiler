@@ -82,7 +82,7 @@ def show_author_info():
     """
     Displays the author information.
     """
-    messagebox.showinfo("Author Info", "Brainfuck IDE\nAuthor: quantam\nContact: quantamphysic [on Discord]")
+    messagebox.showinfo("Author Info", "Brainfuck Compiler & IDE\nAuthor: quantam\nContact: quantamphysic [on Discord]")
 
 def setup_ui(root):
     """
