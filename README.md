@@ -82,4 +82,5 @@ In short, No Permission from me = No Copying Code from here.
 ## Contact
 
 Author: [quantam](https://github.com/Quantamyt/)
+
 Discord: quantamphysic
