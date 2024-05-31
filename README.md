@@ -100,6 +100,8 @@ Here are some examples of Brainfuck code:
    +++++++ [ > +++++ < - ] > +++++++++++ .
    ```
 
+   **Learn More about [brainfuck here](https://en.wikipedia.org/wiki/Brainfuck)**
+
 ## Code Structure
 
 - `brainfuck_ide.py`: The main script containing the application logic and GUI setup.
